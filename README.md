@@ -1,6 +1,7 @@
 # Simulation-Self-Driving-Car
 
 ## Overview
+Self-driving car model using advanced technologies and machine learning techniques. The project, required a comprehensive understanding of neural networks, and computer vision. I successfully implemented a Convolutional Neural Network (CNN) architecture for both training and testing modes, leveraging libraries such as numpy, matplotlib, TensorFlow, and Keras. The architecture employed two inputs, steering angle, and a set of cameras, demonstrating my proficiency in integrating diverse technologies. Additionally, the project involved rigorous testing methodologies, including unit testing, integration testing, and user acceptance testing, ensuring the reliability and functionality of the self-driving car model. This endeavor not only honed my technical skills but also fostered my problem-solving abilities in the realm of autonomous systems."
 
 ## Dependencies
 Install [anaconda](https://www.continuum.io/downloads) or [miniconda](https://conda.io/miniconda.html) to use the environment setting.
@@ -34,11 +35,11 @@ This will generate a file `model-<epoch>.h5` whenever the performance in the epo
 
 
 ### Run the model
-Open anaconda powershell
-Navigate to source folder
-Open Udacity Simulator in Autonomous mode
+-Open anaconda powershell
+-Navigate to source folder
+-Open Udacity Simulator in Autonomous mode
 
-Activate environment and run model
+Activate environment and Run model
 ```python
 conda activate car-behavioral-cloning
 python drive.py model.h5
